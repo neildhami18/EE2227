@@ -85,10 +85,7 @@ x_2
         \item Output equation: $Y = CX + DU$ 
     \end{enumerate}
 \end{itemize}
-\begin{figure}
-\includegraphics[width=250]{ssm.png}
-\caption{\label{fig:ssm.png}SSM Block Diagram}
-\end{figure}
+
 \end{frame}
 
 \begin{frame}{State Space Analysis}
@@ -131,9 +128,18 @@ $s^2X_1(s) + 3sX_1(s) + 2X_1(s) - sx_1(0) - x_1'(0) -3x_1(0)  = R(s)$
 
 \begin{itemize}
     \item Since the poles of the transfer function are real and distinct, the system is \textbf{OVERDAMPED}.
-    \item Solution: $h(t) = L^{-1}(H(s)) = e^{-t} - e^{-2t}$
+    \item Solution(Natural Response): $h(t) = L^{-1}(H(s)) = e^{-t} - e^{-2t}$
+    
 \end{itemize}
 
+\begin{figure}
+\includegraphics[width=250]{test.png}
+\caption{\label{fig:test.png}Comparison}
+\end{figure}
+
 \end{frame}
+
+
+
 
 \end{document}
