@@ -1,3 +1,5 @@
+#Code by Neil
+
 import sympy as sp
 import numpy as np
 from scipy import signal
