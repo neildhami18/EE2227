@@ -53,9 +53,9 @@ plt.text(6.43785,-150.7, '({}, {})'.format(6.438,-150.7))
 plt.grid()
 
 #if using termux
-plt.savefig('./figs/ee18btech110031/ee18btech110031_2.pdf')
-plt.savefig('./figs/ee18btech110031/ee18btech110031_2.eps')
-subprocess.run(shlex.split("termux-open ./figs/ee18btech11001/ee18btech11001_2.pdf"))
+plt.savefig('./figs/ee18btech11031/ee18btech11031_2.pdf')
+plt.savefig('./figs/ee18btech11031/ee18btech11031_2.eps')
+subprocess.run(shlex.split("termux-open ./figs/ee18btech11031/ee18btech11031_2.pdf"))
 #else
 #plt.show()
 
