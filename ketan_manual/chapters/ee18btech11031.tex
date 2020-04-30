@@ -11,7 +11,7 @@ G(s) = \frac{50(s+3)(s+5)}{s(s+2)(s+4)(s+6)}
 The magnitude and phase plot are as follows: Fig\ref{fig:ee18btech11031} 
 \begin{figure}[!h]
 \centering
-  \includegraphics[width=\columnwidth]{ee18btech11031_2.eps}
+  \includegraphics[width=\columnwidth]{./figs/ee18btech11031_2.eps}
   \caption{Graphs}
   \label{fig:ee18btech11031}
 \end{figure}
@@ -38,28 +38,28 @@ Phase:
 \end{multline}
 \item Find the Phase Margin\brak {PM} and verify using the same code
 \begin{align}
-{\em PM} = \angle G(\j\omega_{gc}) + 180\degree \\
+ PM = \angle G(j\omega_{gc}) + 180\degree \\
 \omega_{gc}=\text{Gain Crossover Frequency}\\
 \text{At }  \omega_{gc} \left| G\brak{s}\right|  = 1
 \end{align}
 \solution
-\begin{align}
+\begin{multline}
     \frac{100\sqrt{{\brak{\omega_{gc}}^2+9}}\sqrt{\brak{\omega_{gc}}^2+25}}{\omega{gc}\sqrt{\brak{\omega_{gc}}^2+4}\sqrt{\brak{\omega_{gc}}^2+16}\sqrt{\brak{\omega_{gc}}^2+36}} &= 1
 \label{eq:ee18btech11031_4}
-\end{align}{}
+\end{multline}
 Solving Eq. \eqref{eq:ee18btech11031_4} {\em or} from Fig \ref{fig:ee18btech11031} :
 
 \begin{align}
 \implies
 \omega_{gc} &= 6.438  \\
-\angle G\brak{\j\omega_{gc}} &= -150.725 \\
+\angle G\brak{j\omega_{gc}} &= -150.725 \\
 \implies
 PM &= 29.275 
 \end{align}
 
 \item Find the Gain Margin \brak{GM} and verify using the same code.
 \begin{align}
-{\em GM} = 0 -G(\j\omega_{pc}) db \\
+ GM = 0 -G(j\omega_{pc}) db \\
 \omega_{pc}=\text{Phase Crossover Frequency}
 \end{align}
 \begin{align}
